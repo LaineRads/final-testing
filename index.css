@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    border-radius: 5px;
+    font-family:Verdana;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+
+}
+h1{
+    font-size: 40px;
+}
+.bar, footer, .age{
+    background-color: #8E1616;
+}
+
+body{
+    background-color: #161616;
+}
+
+.nav{
+    display: absolute;
+}
+
+
+nav video{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+    max-width: 130px;
+    max-height: 60px;
+    
+}
+.bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.bar li{
+    display: inline-block;
+    margin: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;   
+}
+
+
+.bar li:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.bar a:hover{
+    opacity: 0.3;
+}
+
+.nav-icon {
+    display: block;
+    max-width: 60px;
+}
+@media (max-width: 767px){
+
+    .nav-text {
+        display: none;
+    }
+    .nav-icon {
+        display: block;
+        max-width: 60px;
+    }
+    
+}
+@media (min-width:768px) and (max-width:1023px) {
+    
+    .nav-text {
+        display: none;
+    }
+    .nav-icon {
+        display: block;
+        max-width: 60px;
+    }
+    
+}
+
+@media(min-width:1024px) {
+    .nav-icon {
+        display: none;
+    }
+    .nav-text {
+        display: inline; 
+    }
+    .bar li{
+        margin: 10px;
+        padding: 15px;
+    }
+    
+}
+.container{
+    background-image: url(yoyo.jpg);
+    margin: 10px;
+    padding: 20px;
+    height: 70vh;
+    border-radius: 10px;
+    border: 2px solid #161616;
+    color: #161616; 
+}
+.age{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #161616;
+    color: #161616; 
+}
+.age p{
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+.button.yes{
+    background-image: url(YW.jpg);
+    background-size: 100px 40px;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 100px;
+}
+.button.no{
+    background-image: url(NW.jpg);
+    background-size: 100px 40px;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 100px;
+}
+
+.button:hover, .yes:hover, .no:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.yes:hover{
+    background-image: url(YR.jpg);
+    background-size: 100px 40px;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 100px;
+}
+.no:hover{
+    background-image: url(NR.jpg);
+    background-size: 100px 40px;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 100px;
+}
+
+
+
+footer{
+    margin: 10px;
+    padding: 5px;
+}

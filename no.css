@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border-radius: 10px;
+    font-family:Verdana;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+
+.bar, footer, .age{
+    background-color: #8E1616;
+}
+
+body{
+    background-color: #161616;
+}
+
+.bar, .container, .age, footer{
+    margin: 10px;
+    padding: 10px;
+}
+nav video{
+    max-width: 130px;
+    max-height: 60px;
+    
+}
+.bar, nav video{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-image: url(yoyo.jpg);
+    height: 70vh;
+}
+@media (max-width: 767px){
+    .age h1, .age p{
+        font-size: 20px;
+    }
+}
+@media (min-width:768px) and (max-width:1023px) {
+    .age h1, .age p{
+        font-size: 30px;
+    }
+}
+
+@media(min-width:1024px) {
+    .age h1, .age p{
+        font-size: 40px;
+    }
+}
