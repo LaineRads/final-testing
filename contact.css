@@ -79,6 +79,7 @@ nav video{
         max-width: 60px;
     }
     .social-media img{
+        margin:10px;
         width:150px; 
         height:150px;
     }
