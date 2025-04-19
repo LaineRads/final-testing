@@ -78,6 +78,10 @@ nav video{
         display: block;
         max-width: 60px;
     }
+    .social-media img{
+        width:150px; 
+        height:150px;
+    }
     
 }
 @media (min-width:768px) and (max-width:1023px) {
